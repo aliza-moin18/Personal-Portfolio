@@ -9,17 +9,17 @@ const Contact = () => {
       initial={{ opacity: 0 }} 
       animate={{ opacity: 1 }}  
       exit={{ opacity: 0 }}  
-      transition={{ duration: 0.9, ease: 'easeInOut' }} // Smooth fade transition
+      transition={{ duration: 0.9, ease: 'easeInOut' }} 
       className="flex flex-col items-center justify-center gap-0 my-8"
     >
       <div className='relative px-10'>
         <div className='flex gap-30'>
           <div className='flex flex-col gap-[20px] mt-6'>
             <h1 className='text-7xl font-bold bg-gradient-to-r from-[#9615db] to-white text-transparent bg-clip-text ml-[7px]'>
-              Let's Work Together
+              Let&apos;s Work Together
             </h1>
             <p className='mr-20 ml-[12px]'>
-              I'm currently available to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.
+              I&apos;m currently available to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.
             </p>
 
             <div className='flex flex-col gap-[20px] text-white text-[21px]'>

@@ -19,9 +19,9 @@ const Home = () => {
             className='text-center xl:text-left order-2 xl:order-none'
           >
             <h1 className='h1 mb-5'> 
-             Hello I'm  <br /> 
+             Hello I&apos;m  <br /> 
             <span className='bg-gradient-to-r from-[#bd1ce1] via-[#9d36ab]  to-[#e3c9e6] text-transparent bg-clip-text'> Aliza Moin </span> </h1>
-            <p className='max-w-[540px] mb-6 text-white/90'>"I work as a web developer specializing in creating responsive, beautiful websites. Passionate and meticulous, I transform concepts into powerful digital experiences."  </p>
+            <p className='max-w-[540px] mb-6 text-white/90'>&quot;I work as a web developer specializing in creating responsive, beautiful websites. Passionate and meticulous, I transform concepts into powerful digital experiences.&quot;  </p>
          
          <div className='flex flex-col xl:flex-row items-center gap-10'>
          <motion.a 

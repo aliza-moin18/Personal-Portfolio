@@ -33,7 +33,7 @@ const education = {
   },
   {
     institution: "University Of Sindh, Jamshoro, Pakistan",
-    degree: "BACHELOR'S IN DEVELOPMENT COMMUNICATION. (Undergraduate)",
+    degree: "BACHELOR&apos;S IN DEVELOPMENT COMMUNICATION. (Undergraduate)",
     duration: "2023 - 2027  ( Expected Graduation )"
   },
   {

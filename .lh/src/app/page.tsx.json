@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 9,
             "patches": [
                 {
                     "date": 1731178612214,
@@ -28,6 +28,22 @@
                 {
                     "date": 1731204233757,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n import { Button } from '@/components/ui/button';\n import { FiDownload } from \"react-icons/fi\";\n import Social from '@/components/ui/Social';\n-import Phot\n+import Photo from '@/components/ui/Photo';\n import { motion } from \"framer-motion\";\n \n const Home = () => {\n   return (\n@@ -17,9 +17,8 @@\n             animate={{ opacity: 1, x: 0 }} \n             transition={{ delay: 0.5, duration: 1, ease: \"easeOut\" }}\n             className='text-center xl:text-left order-2 xl:order-none'\n           >\n-  \n             <h1 className='h1 mb-5'> \n              Hello I'm  <br /> \n             <span className='bg-gradient-to-r from-[#bd1ce1] via-[#9d36ab]  to-[#e3c9e6] text-transparent bg-clip-text'> Aliza Moin </span> </h1>\n             <p className='max-w-[540px] mb-6 text-white/90'>\"I work as a web developer specializing in creating responsive, beautiful websites. Passionate and meticulous, I transform concepts into powerful digital experiences.\"  </p>\n"
+                },
+                {
+                    "date": 1731234076269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             transition={{ delay: 0.5, duration: 1, ease: \"easeOut\" }}\n             className='text-center xl:text-left order-2 xl:order-none'\n           >\n             <h1 className='h1 mb-5'> \n-             Hello I'm  <br /> \n+             Hello Im  <br /> \n             <span className='bg-gradient-to-r from-[#bd1ce1] via-[#9d36ab]  to-[#e3c9e6] text-transparent bg-clip-text'> Aliza Moin </span> </h1>\n             <p className='max-w-[540px] mb-6 text-white/90'>\"I work as a web developer specializing in creating responsive, beautiful websites. Passionate and meticulous, I transform concepts into powerful digital experiences.\"  </p>\n          \n          <div className='flex flex-col xl:flex-row items-center gap-10'>\n"
+                },
+                {
+                    "date": 1731234088189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n             transition={{ delay: 0.5, duration: 1, ease: \"easeOut\" }}\n             className='text-center xl:text-left order-2 xl:order-none'\n           >\n             <h1 className='h1 mb-5'> \n-             Hello Im  <br /> \n+             Hello I&apos;m  <br /> \n             <span className='bg-gradient-to-r from-[#bd1ce1] via-[#9d36ab]  to-[#e3c9e6] text-transparent bg-clip-text'> Aliza Moin </span> </h1>\n             <p className='max-w-[540px] mb-6 text-white/90'>\"I work as a web developer specializing in creating responsive, beautiful websites. Passionate and meticulous, I transform concepts into powerful digital experiences.\"  </p>\n          \n          <div className='flex flex-col xl:flex-row items-center gap-10'>\n"
+                },
+                {
+                    "date": 1731234324416,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n           >\n             <h1 className='h1 mb-5'> \n              Hello I&apos;m  <br /> \n             <span className='bg-gradient-to-r from-[#bd1ce1] via-[#9d36ab]  to-[#e3c9e6] text-transparent bg-clip-text'> Aliza Moin </span> </h1>\n-            <p className='max-w-[540px] mb-6 text-white/90'>\"I work as a web developer specializing in creating responsive, beautiful websites. Passionate and meticulous, I transform concepts into powerful digital experiences.\"  </p>\n+            <p className='max-w-[540px] mb-6 text-white/90'>\"&quot;I work as a web developer specializing in creating responsive, beautiful websites. Passionate and meticulous, I transform concepts into powerful digital experiences.\"  </p>\n          \n          <div className='flex flex-col xl:flex-row items-center gap-10'>\n          <motion.a \n                  href=\"/My CV file.pdf\"\n"
+                },
+                {
+                    "date": 1731234330007,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n           >\n             <h1 className='h1 mb-5'> \n              Hello I&apos;m  <br /> \n             <span className='bg-gradient-to-r from-[#bd1ce1] via-[#9d36ab]  to-[#e3c9e6] text-transparent bg-clip-text'> Aliza Moin </span> </h1>\n-            <p className='max-w-[540px] mb-6 text-white/90'>\"&quot;I work as a web developer specializing in creating responsive, beautiful websites. Passionate and meticulous, I transform concepts into powerful digital experiences.\"  </p>\n+            <p className='max-w-[540px] mb-6 text-white/90'>&quot;I work as a web developer specializing in creating responsive, beautiful websites. Passionate and meticulous, I transform concepts into powerful digital experiences.&quot;  </p>\n          \n          <div className='flex flex-col xl:flex-row items-center gap-10'>\n          <motion.a \n                  href=\"/My CV file.pdf\"\n"
                 }
             ],
             "date": 1731178612214,

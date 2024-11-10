@@ -9,7 +9,7 @@ const data = [
       id: 0,
       title: "Countdown Timer",
       desc: "A React & TypeScript based app for managing and Organization",
-      img: "/project_1.jpg",
+      img: "/project_1 .jpeg",
       tags: [
              { name: "Live Demo", href: "https://30-days-of-30-nextjs-projects-7nmf.vercel.app/" },
              { name: "GitHub", href: "https://github.com/aliza-moin18/30-Days-of-30-Nextjs-Projects../tree/main/countdown-timer" }
@@ -20,7 +20,7 @@ const data = [
       id: 1,
       title: "Weather Widget",
       desc: "A React & TypeScript based app for managing and Organization",
-      img: "/project_2.jpg",
+      img: "/project_2.jpeg",
       tags: [
          { name: "Live Demo", href: "" },
          { name: "GitHub", href: "https://github.com/aliza-moin18/30-Days-of-30-Nextjs-Projects./tree/main/weather-widget" }
@@ -31,7 +31,7 @@ const data = [
       id: 2,
       title: "Static Interactive Resume",
       desc: "A React & TypeScript based app for managing and Organization",
-      img: "/project_3.jpg",
+      img: "/project_3.jpeg",
       tags: [
          { name: "Live Demo", href: "https://hackathon-milestone-based-interactive-resume-builder-mqlh.vercel.app/" },
          { name: "GitHub", href: "https://github.com/aliza-moin18/Hackathon-Milestone-Based-Interactive-Resume-Builder./tree/main/Milestone%201" }
@@ -42,7 +42,7 @@ const data = [
       id: 3,
       title: "Dynamic Resume Builder",
       desc: "A React & TypeScript based app for managing and Organization",
-      img: "/project_4.jpg",
+      img: "/project_4.jpeg",
       tags: [
          { name: "Live Demo", href: "https://hackathon-milestone-3-eqph.vercel.app/" },
          { name: "GitHub", href: "https://github.com/aliza-moin18/Hackathon-Milestone-Based-Interactive-Resume-Builder./tree/main/Milestone%203" }
