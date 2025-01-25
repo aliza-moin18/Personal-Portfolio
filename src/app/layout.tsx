@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
 import jetBrains_Mono from "next/font/local";
 import "./globals.css";
-import Header from "@/components/ui/Header/Header";
 import PageTransition from "@/components/ui/PageTransition";
 import Footer from "@/components/Footer/Footer";
+import Header from "@/components/ui/Header/Header";
 
 
 const geistSans = jetBrains_Mono({
   src: "./fonts/GeistVF.woff",
-  variable: "--font-jetbrainsMono",
+  variable: "--font-geistSans",
   weight: "100 900",
 });
 const geistMono = jetBrains_Mono({
   src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-jetbrainsMono",
+  variable: "--font-geistSans",
   weight: "100 900",
 });
 
@@ -37,7 +37,6 @@ export default function RootLayout({
         {children}
           </PageTransition>  
         <Footer /> 
-        
       </body>
     </html>
   );

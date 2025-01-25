@@ -8,7 +8,8 @@ import { motion } from "framer-motion";
 
 const Home = () => {
   return (
-     <section className='h-full pt-0 pb-0 xl:pt-1 xl:pb-1 ml-14'>
+    <>
+     <section className='h-full pt-0 pb-0 xl:pt-1 xl:pb-1 ml-14 mb-40'>
       <div className='container mx-auto h-full px-2 xl:px-7'> 
         <div className='flex flex-col xl:flex-row items-center justify-between xl:pt-12 xl:pb-5'>
 
@@ -20,8 +21,10 @@ const Home = () => {
           >
             <h1 className='h1 mb-5'> 
              Hello I&apos;m  <br /> 
-            <span className='bg-gradient-to-r from-[#bd1ce1] via-[#9d36ab]  to-[#e3c9e6] text-transparent bg-clip-text'> Aliza Moin </span> </h1>
-            <p className='max-w-[540px] mb-6 text-white/90'>&quot;I work as a web developer specializing in creating responsive, beautiful websites. Passionate and meticulous, I transform concepts into powerful digital experiences.&quot;  </p>
+            <span className='bg-gradient-to-r from-[#bd1ce1] via-[#9d36ab] to-[#e3c9e6] text-transparent bg-clip-text'> Aliza Moin </span> </h1>
+            <p className='max-w-[540px] mb-6 text-white/90'>
+            I&apos;m a web developer with expertise in both front-end and back-end technologies. I build responsive, high-performance websites that are visually compelling and functionally solid. Let&apos;s collaborate to bring your project to life.
+            </p>
          
          <div className='flex flex-col xl:flex-row items-center gap-10'>
          <motion.a 
@@ -56,6 +59,7 @@ const Home = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 
