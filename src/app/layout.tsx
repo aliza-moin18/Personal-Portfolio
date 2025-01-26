@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import jetBrains_Mono from "next/font/local";
 import "./globals.css";
-import PageTransition from "@/components/ui/PageTransition";
 import Footer from "@/components/Footer/Footer";
-import Header from "@/components/ui/Header/Header";
+import Header from "@/components/Header/Header";
 
 
 const geistSans = jetBrains_Mono({
@@ -32,10 +31,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-[#30014] antialiased`}>
 
-        <Header />
-          <PageTransition>  
-        {children}
-          </PageTransition>  
+        <Header />  
+        {children} 
         <Footer /> 
       </body>
     </html>
